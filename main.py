@@ -1,6 +1,7 @@
 import numpy as np
 import math 
 import matplotlib.pyplot as plt
+import pandas as pd
 import random
 
 #App backend
@@ -27,4 +28,10 @@ class participantes:
         sum_dificultades = sum(
             prueba["dificultad"] for prueba in self.pruebas.values()
         )
+        
+class reports:
+    def __init__(self):
+        pass
+    def make_report(self):
+        pass
         
