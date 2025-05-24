@@ -1,8 +1,13 @@
+#Librerias
 import random
 import pandas as pd
 import matplotlib.pyplot as plt
 
+#About: descartada la herencia por la complejidad innecesaria que añadía al código
+
+ #Clase dedicada a manejar las puntuaciones por prueba.
 class Participante:
+    
     def __init__(self, nombre):
         self.nombre = nombre
         self.pruebas = {
@@ -36,7 +41,7 @@ class system_logic:
         return p
 
     def make_report(self):
-        """Genera DataFrame con estadísticas"""
+        #Genera DataFrame con estadísticas
         if not self.participantes:
             return None
 
@@ -48,7 +53,7 @@ class system_logic:
         return pd.DataFrame(data)
 
     def classification_graph(self):
-        """Genera gráfico circular"""
+        #Genera gráfico circular
         if not self.participantes:
             return None
 
