@@ -1,5 +1,3 @@
-Proyecto práctico final para clase de programación segundo semestre en Universidad Autónoma de Occidente:
-
 Sistema de Gestión de Rendimiento en Pruebas Deportivas
 Un centro deportivo está organizando una competencia donde se evalúa el rendimiento físico de sus participantes en tres pruebas diferentes. Cada prueba tiene un nivel de dificultad aleatorio, lo que influye en el cálculo del puntaje final ponderado de cada participante.
 El sistema debe implementarse como una interfaz gráfica utilizando tkinter y debe ofrecer el siguiente menú:
